@@ -5,6 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import * as Icon from "react-native-feather";
 import { themeColors } from '../theme';
 import Categories from '../components/categories';
+import { featured } from '../constants';
 
 
 export default function HomeScreen() {
@@ -37,6 +38,25 @@ export default function HomeScreen() {
 >
   {/* catogeries */}
 <Categories />
+
+{/* featured  */}
+
+<View className='mt-5'>
+{
+  [featured,featured,featured].map((item,index)=>{
+    return(
+      <FeaturedRow
+      key={index}
+      tittle={item.title}
+      stores={item.stores}
+      description={item.description}
+      
+      />
+    )
+  })
+}
+</View>
+
 
 </ScrollView>
     </SafeAreaView>

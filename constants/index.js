@@ -68,7 +68,7 @@ export const featured = {
             stars: 4,
             reviews: '1.4k',
             categories: 'Camping Items',
-            items: [
+            campItems: [
                 {
                     id: 1,
                     name: 'Backpack',
@@ -152,7 +152,7 @@ export const featured = {
             stars: 4,
             reviews: '1.4k',
             categories: 'Camping Items',
-            items: [
+            campItems: [
                 {
                     id: 1,
                     name: 'Backpack',
@@ -236,7 +236,7 @@ export const featured = {
             stars: 4,
             reviews: '1k',
             categories: 'Camping Items',
-            items: [
+            campItems: [
                 {
                     id: 1,
                     name: 'Adventure Backpack',
@@ -320,7 +320,7 @@ export const featured = {
             stars: 4.5,
             reviews: '2k',
             categories: 'Camping Items',
-            items: [
+            campItems: [
                 {
                     id: 1,
                     name: 'Travel Backpack',

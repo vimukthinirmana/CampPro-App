@@ -24,7 +24,17 @@ export default function FeaturedRow(title,description,store) {
       }}
       className='overflow-visible py-5'
       >
-        
+         {
+            stores.map((store, index)=> {
+                return (
+                    <storeCard
+                    item={store}
+                    key={index}
+                    />
+                )
+            })
+        }
+
       </ScrollView>
     </View>
   )
